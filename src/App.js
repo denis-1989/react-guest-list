@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
-const baseUrl = 'http://9rbjs-4000.csb.app';
+const baseUrl = 'https://9rbjs-4000.csb.app';
 
 export default function App() {
   const [guests, setGuests] = useState([]);
