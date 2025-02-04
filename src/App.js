@@ -12,6 +12,7 @@ export default function App() {
   // Fetch the guests from the API when the component loads
   useEffect(() => {
     const fetchGuests = async () => {
+      setLoading(true); // Ensure loading message appears
       try {
         const response = await fetch(`${baseUrl}/guests`);
         const allGuests = await response.json();
