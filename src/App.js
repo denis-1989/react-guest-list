@@ -107,7 +107,7 @@ export default function App() {
       >
         <div className="input-field-container">
           <label className="name-input-label" htmlFor="first-name-input">
-            First Name
+            First name
           </label>
           <input
             id="first-name-input"
@@ -117,7 +117,7 @@ export default function App() {
           />
 
           <label className="name-input-label" htmlFor="last-name-input">
-            Last Name
+            Last name
           </label>
           <input
             id="last-name-input"
