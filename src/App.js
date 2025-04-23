@@ -125,7 +125,7 @@ export default function App() {
             onChange={(e) => setLastName(e.target.value)}
             required
           />
-          <button type>Add Guest</button>
+          <button>Add Guest</button>
         </div>
       </form>
 
